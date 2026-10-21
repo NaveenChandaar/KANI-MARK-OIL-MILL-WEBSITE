@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Owner — Transactions</title><link rel="stylesheet" href="css/style.css"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#3F5B32"><link rel="apple-touch-icon" href="/icons/icon-192.png"></head>
+<body data-nofab>
+<div class="invocation"><span lang="ta">ஸ்ரீ சங்கர விநாயகர் துணை</span></div>
+<header class="nav"><a class="logo" href="/">KANI <span>MARK</span><small>OIL MILL</small></a><nav class="links always"><a href="/">← Home</a></nav></header>
+<section class="section">
+<meta name="robots" content="noindex"><p class="eyebrow">OWNER ONLY</p><h2>All transactions.</h2>
+<div class="contact-card checkout wider"><div class="findrow"><input id="tok" type="password" placeholder="Admin token (ADMIN_TOKEN from .env)" autocomplete="off"><button id="load" class="paybtn">Load</button></div>
+<p id="msg"></p><p id="stats" class="stats"></p>
+<div class="findrow"><select id="flt"><option value="all">All</option><option value="paid">Paid</option><option value="created">Not completed</option><option value="failed">Failed</option></select><button id="csv" class="paybtn">Download CSV</button></div>
+<div class="tablewrap"><table><thead><tr><th>Date</th><th>Order ID</th><th>Items</th><th>Amount</th><th>Status</th><th>Payment ID</th><th>Name</th><th>Mobile</th><th>Address</th></tr></thead><tbody id="rows"></tbody></table></div></div>
+</section>
+<div class="copyright"><div class="line"></div>© 2026 <b class="zenix"><i class="c1">Z</i><i class="c2">E</i><i class="c3">N</i><i class="c4">I</i><i class="c5">X</i></b></div>
+<script src="js/common.js"></script>
+<script src="js/admin.js"></script>
+</body></html>
